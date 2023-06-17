@@ -10,7 +10,7 @@ import "./Ownable.sol";
  * there is an account (an owner) that can be granted exclusive access to
  * specific functions.
  *
- * By default, the owner account will be the one that deploys the contract. This
+ * The owner account is provided as a constructor argument during deployment. This
  * can later be changed with {transferOwnership} and {acceptOwnership}.
  *
  * This module is used through inheritance. It will make available all functions
